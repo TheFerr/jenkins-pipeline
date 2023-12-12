@@ -28,6 +28,7 @@ pipeline {
                 echo "Deploying......."
                 sh "ls -la"
                 sh '''
+		   pwd
                    echo "Line1"
                    echo "Line2"
                 '''
